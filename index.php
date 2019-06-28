@@ -23,7 +23,7 @@
 		if ($row) {
 
 			if ($_POST['username'] == $_SESSION['user'] && $_POST['password'] == $_SESSION['pass'])  {
-				header("Location: article.php");
+				header("Location: listArticles.php");
 			}
 
 		}
