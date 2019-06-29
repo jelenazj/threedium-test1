@@ -1,0 +1,38 @@
+body {
+	background-color: #ccc;
+}
+
+.login {
+	background-color: #aaa;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 50%;
+	margin: auto;
+	margin-top: 20%;
+}
+
+.login input {
+	margin-bottom: 15px;
+	padding: 5px;
+	
+}
+
+.submit {
+	display: block;
+	margin: auto;
+}
+
+.linesOfText {
+ margin:20px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ display: -webkit-box;
+ -webkit-line-clamp: 3;
+ -webkit-box-orient: vertical;
+}
+
+textarea {
+	width: 80%;
+	height: 100%;
+}
